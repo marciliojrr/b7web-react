@@ -1,15 +1,13 @@
-import { Header } from "./components/Header";
-import { Photo } from "./components/Photo";
-
 const App = () => {
+
+    const handleButtonClick = () => {
+        alert('O botao foi clicado!')
+    }
+
     return (
         <div>
-            <Header title='Example' />
-            <Header title='Example 2' />
-            <Photo legend='Google Old Logo'>
-                <img src="https://www.google.com.br/google.jpg" alt="" />
-            </Photo>
-            Hello World.
+            <button onClick={handleButtonClick}>Clique aqui</button>
+            <button onClick={() => { alert('O segundo botao foi clicado!') }}>Clique aqui 2</button>
         </div>
     )
 }
