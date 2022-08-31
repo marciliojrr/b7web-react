@@ -9,4 +9,20 @@ Criando projeto usando o Vite
  - cd "nome-do-projeto"
  - npm run dev
 
- 
+Criando componentes
+// Podemos criar usando function
+    function App() {
+        return <div>Coé, mundo.</div>;
+    }
+
+// Podemos criar usando const + funcao anonima
+    const App = () => {
+        return (
+            <div>
+                Teste com const
+            </div>
+        )
+    }
+
+    // Lembrar de sempre exportar!
+    export default App;
