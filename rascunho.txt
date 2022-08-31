@@ -1,0 +1,12 @@
+Criando projeto usando CRA (Create React App)
+ - npx create-react-app "nome-do-projeto" --template typescript
+ - cd "nome-do-projeto"
+ - npm start (inicia o projeto)
+
+Criando projeto usando o Vite
+ - npm init vite "nome-do-projeto" --template react-ts (npm <= 6.0)
+ - npm init vite "nome-do-projeto" -- --template react-ts (npm >= 7.0)
+ - cd "nome-do-projeto"
+ - npm run dev
+
+ 
