@@ -1,8 +1,15 @@
+import React from "react";
+
+// JSX
 const App = () => {
+    // return React.createElement('a', {
+    //     href: 'https://www.google.com.br'
+    // }, 'Google');
+
+    // ou
+
     return (
-        <div>
-            Teste com const
-        </div>
+        <a href='https://www.google.com.br'>teste 2</a>
     )
 }
 
