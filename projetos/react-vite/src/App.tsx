@@ -1,15 +1,17 @@
-import React from "react";
-
-// JSX
 const App = () => {
-    // return React.createElement('a', {
-    //     href: 'https://www.google.com.br'
-    // }, 'Google');
 
-    // ou
+    let name: string = 'marcilio';
+    let lastName: string = 'junior'
+    let link: string = 'https://www.google.com.br'
 
     return (
-        <a href='https://www.google.com.br'>teste 2</a>
+        <div>
+            Nome: {`${name} ${lastName}`}<br />
+            Link para o site: <br />
+            <a href={link}>Clique aqui para acessar o Google</a>
+        </div>
+
+
     )
 }
 
