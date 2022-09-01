@@ -4,7 +4,7 @@ const App = () => {
 
     const [name, setName] = useState('')
 
-    const handleInput = (event: React.FormEvent<HTMLInputElement>) => {
+    const handleInput = (event: React.ChangeEvent<HTMLInputElement>) => {
         setName(event.target.value)
     }
 
