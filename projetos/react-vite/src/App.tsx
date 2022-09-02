@@ -1,10 +1,11 @@
-import { useState } from 'react'
-import { Button } from './components/Button/Index';
+
 
 const App = () => {
 
     return (
-        <Button />
+        <div>
+            ...
+        </div>
     )
 }
 
