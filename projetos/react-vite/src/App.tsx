@@ -1,4 +1,4 @@
-import * as C from './AppStyles' // ---> [2] <----
+import * as C from './AppStyles'
 
 const App = () => {
 

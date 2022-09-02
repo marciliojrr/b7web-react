@@ -4,9 +4,12 @@ type ContainerProps = {
     bg: string
 }
 export const Container = styled.div<ContainerProps>`
+    max-width: 600px;
+    margin: auto;
     background-color: ${props => props.bg};
     color: white;
     padding: 20px;
+    display: flex;
 
     .link {
         color: #FFF;
@@ -19,6 +22,15 @@ export const Container = styled.div<ContainerProps>`
     span {
         font-weight: bold;
         color: #000;
+    }
+
+    @media (max-width: 500px) { //responsividade
+        background-color: #00FF00;
+        flex-direction: column;
+
+        span {
+            color: #0000FF;
+        }
     }
 `;
 
