@@ -26,3 +26,9 @@ Criando componentes
 
     // Lembrar de sempre exportar!
     export default App;
+
+
+Instalando o Styled Components
+ - npm install styled-components
+ - npm install -D @types/styled-components (para uso com Typescript)
+
