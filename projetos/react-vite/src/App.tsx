@@ -1,10 +1,20 @@
+import { useState } from 'react'
+
 const App = () => {
 
+    const [padding, setPadding] = useState(0)
 
+    const handleClick = () => {
+        setPadding(20)
+    }
 
     return (
         <div>
-            <button style={{ backgroundColor: '#FF0000', color: '#FFF', border: 0 }}>Clique aqui</button>
+            <button
+                onClick={handleClick}
+                style={{ backgroundColor: '#FF0000', color: '#FFF', border: 0, padding: padding }}>
+                Clique aqui
+            </button>
         </div>
     )
 }
