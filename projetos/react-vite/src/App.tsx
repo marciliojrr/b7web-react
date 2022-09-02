@@ -1,24 +1,12 @@
-// import { Container, Button } from "./AppStyles"; // ---> [1] <---
 import * as C from './AppStyles' // ---> [2] <----
 
-// ---> [1] <---
-// const App = () => {
-
-//     return (
-//         <Container>
-//             But by default, she don't think on me...
-//             <Button>Clique aqui</Button>
-//         </Container>
-//     )
-// }
-
-// ---> [2] <----
 const App = () => {
 
     return (
-        <C.Container>
+        <C.Container bg='#1b1ba49d'>
             But by default, she don't think on me...
-            <C.Button>Clique aqui</C.Button>
+            <C.Button bg='#FF0000'>Botão grande</C.Button>
+            <C.Button bg='#00FF00' small>Botão pequeno</C.Button>
         </C.Container>
     )
 }
