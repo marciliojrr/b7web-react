@@ -35,10 +35,27 @@ Instalando o Styled Components
 Instalando o TailwindCSS (para projeto criado através do Vite)
  - npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
  - npx tailwindcss init -p
+ 
  - No arquivo "tailwind.config.js"
    - content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
+  ]
+ 
+ - No arquivo "index.css"
+   - @tailwind base;
+   - @tailwind components;
+   - @tailwind utilities;
+   
+   
+Instalando o TailwindCSS (para projeto criado através do CRA)
+ - npm install -D tailwindcss postcss autoprefixer
+ - npx tailwindcss init -p
+ 
+ - No arquivo "tailwind.config.js"
+   - content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ]
  - No arquivo "index.css"
    - @tailwind base;
